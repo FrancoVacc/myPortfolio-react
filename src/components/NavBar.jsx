@@ -9,7 +9,7 @@ const NavBar = ({ links }) => {
   return (
     <nav className=" sticky top-0 mb-4 w-[100%] px-4 md:flex md:justify-between items-center bg-slate-900 ">
       <div className="relative z-50 md:flex">
-        <div className="flex justify-between bg-slate-900">
+        <div className="flex justify-between bg-slate-900 pt-2">
           <h3>
             <span className=" text-white">Franco Vaccari's </span>
             <span className="text-green-500">Portfolio</span>
