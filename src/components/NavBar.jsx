@@ -7,9 +7,9 @@ const NavBar = ({ links }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className=" sticky top-0 mb-4 w-[100%] px-4 md:flex md:justify-between items-center bg-black ">
+    <nav className=" sticky top-0 mb-4 w-[100%] px-4 md:flex md:justify-between items-center bg-slate-900 ">
       <div className="relative z-50 md:flex">
-        <div className="flex justify-between bg-black">
+        <div className="flex justify-between bg-slate-900">
           <h3>
             <span className=" text-white">Franco Vaccari's </span>
             <span className="text-green-500">Portfolio</span>
@@ -35,7 +35,7 @@ const NavBar = ({ links }) => {
       </div>
 
       <ul
-        className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-black md:z-auto z-10 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+        className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-slate-900 md:z-auto z-10 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
           open === true ? "top-5 " : "top-[-490px]"
         }`}
       >

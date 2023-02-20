@@ -100,7 +100,7 @@ const MySkills = () => {
   ];
 
   return (
-    <div className=" bg-black my-5 px-4 ">
+    <div className=" bg-slate-900 my-5 px-4 ">
       <h3 className=" text-3xl font-semibold text-center text-white">
         This are some of my skills
       </h3>

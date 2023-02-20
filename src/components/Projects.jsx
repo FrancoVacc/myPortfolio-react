@@ -50,8 +50,10 @@ const projects = [
 const Projects = () => {
   return (
     <div className=" my-5 px-4">
-      <h3 className=" text-3xl font-semibold text-center">My Projects 💻</h3>
-      <p className="text-center font-semibold">
+      <h3 className=" text-3xl font-semibold text-center text-slate-900">
+        My Projects 💻
+      </h3>
+      <p className="text-center font-semibold text-slate-900">
         Take a look to my projects, you will find a link to the GitHub
         repository and to te Hosting deploy 👇🏼
       </p>

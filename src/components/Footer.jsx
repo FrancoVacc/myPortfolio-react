@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = ({ networks }) => {
   return (
-    <div className="bg-black">
+    <div className="bg-slate-900">
       <hr className=" border-white sm:mx-auto dark:border-gray-700 lg:mt-8" />
       <div className="flex items-center justify-between  p-4">
         <h4 className="text-sm text-white">

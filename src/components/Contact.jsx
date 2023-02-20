@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = ({ networks }) => {
   return (
-    <div className="bg-black py-4">
+    <div className="bg-slate-900 py-4">
       <h3 className=" text-3xl font-semibold text-center text-white">
         Contact 📩
       </h3>

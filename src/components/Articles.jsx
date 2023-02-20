@@ -4,7 +4,7 @@ const Articles = ({ img }) => {
   const articleImg = "grid md:grid-cols-2 grid-cols-1 items-center";
   return (
     <>
-      <h2 className="text-3xl font-bold text-center mb-4">
+      <h2 className="text-3xl font-bold text-center mb-4 text-slate-900">
         I will tell you somthing about me
       </h2>
       <div className={`md:px-2 px-0 ${img && articleImg}`}>
@@ -13,7 +13,7 @@ const Articles = ({ img }) => {
             <img src={img} alt="my picture" />
           </div>
         )}
-        <div className=" h-[100%] md:w-auto w-[100%] bg-black p-4">
+        <div className=" h-[100%] md:w-auto w-[100%] bg-slate-900 p-4">
           <h3 className=" text-3xl font-semibold text-center text-white">
             Hi, I'm Franco Vaccari,
             <span className="text-green-500 uppercase"> frontend</span> junior
