@@ -22,7 +22,7 @@ const Contact = ({ networks }) => {
                 <a
                   href={network.link}
                   target="_blank"
-                  className="uppercase text-sm flex justify-center text-white hover:text-yellow-500"
+                  className="uppercase text-sm flex justify-center text-white hover:text-green-500"
                 >
                   <span className={` text-xl mr-1`}>{network.icon}</span>
                   <span>{network.name}</span>

@@ -62,7 +62,7 @@ const App = () => {
   ];
 
   return (
-    <div className="bg-[url('./img/fondo.png')]">
+    <div className="bg-[url('./img/fondo1.png')]">
       <Navbar links={links} />
       <Element name="information">
         <Articles img={ProfileImg} />

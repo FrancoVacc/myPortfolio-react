@@ -12,7 +12,7 @@ const NavBar = ({ links }) => {
         <div className="flex justify-between bg-black">
           <h3>
             <span className=" text-white">Franco Vaccari's </span>
-            <span className="text-yellow-500">Portfolio</span>
+            <span className="text-green-500">Portfolio</span>
           </h3>
           <div className="md:hidden">
             {open === true ? (
@@ -43,13 +43,13 @@ const NavBar = ({ links }) => {
           <li key={link.name} className="md:text-sm md:mx-2 md:my-0 my-7">
             <Link
               to={link.patch}
-              activeClass="text-yellow-500"
+              activeClass="text-green-500"
               spy={true}
               smooth={true}
               offset={-40}
               duration={500}
               delay={100}
-              className="text-white hover:text-yellow-500 duration-100 cursor-pointer"
+              className="text-white hover:text-green-500 duration-100 cursor-pointer"
             >
               {link.name}
             </Link>

@@ -16,7 +16,7 @@ const Articles = ({ img }) => {
         <div className=" h-[100%] md:w-auto w-[100%] bg-black p-4">
           <h3 className=" text-3xl font-semibold text-center text-white">
             Hi, I'm Franco Vaccari,
-            <span className="text-yellow-500 uppercase"> frontend</span> junior
+            <span className="text-green-500 uppercase"> frontend</span> junior
             developer ✋🏼
           </h3>
           <p className=" text-base text-justify md:text-left text-white mt-2">
