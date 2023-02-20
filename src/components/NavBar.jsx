@@ -1,39 +1,13 @@
 import React, { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { RxCross1 } from "react-icons/rx";
+import { Link } from "react-scroll";
 
-const NavBar = () => {
-  const links = [
-    {
-      name: "Home",
-      patch: "/",
-    },
-    {
-      name: "About Me",
-      patch: "/",
-    },
-    {
-      name: "My Skills",
-      patch: "/",
-    },
-    {
-      name: "Objetives",
-      patch: "/",
-    },
-    {
-      name: "Proyects",
-      patch: "/",
-    },
-    {
-      name: "Contact me",
-      patch: "/",
-    },
-  ];
-
+const NavBar = ({ links }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className=" w-[100%] px-4 md:flex md:justify-between md:items-center bg-black">
+    <nav className=" sticky top-0 mb-4 w-[100%] px-4 md:flex md:justify-between items-center bg-black ">
       <div className="relative z-50 md:flex">
         <div className="flex justify-between bg-black">
           <h3>
@@ -42,11 +16,17 @@ const NavBar = () => {
           </h3>
           <div className="md:hidden">
             {open === true ? (
-              <button onClick={() => setOpen(false)} className="text-white">
+              <button
+                onClick={() => setOpen(false)}
+                className="text-white text-3xl"
+              >
                 <RxCross1 />
               </button>
             ) : (
-              <button onClick={() => setOpen(true)} className="text-white">
+              <button
+                onClick={() => setOpen(true)}
+                className="text-white text-3xl"
+              >
                 <IoMenu />
               </button>
             )}
@@ -61,12 +41,18 @@ const NavBar = () => {
       >
         {links.map((link) => (
           <li key={link.name} className="md:text-sm md:mx-2 md:my-0 my-7">
-            <a
-              href={link.patch}
-              className="text-white hover:text-yellow-500 duration-100"
+            <Link
+              to={link.patch}
+              activeClass="text-yellow-500"
+              spy={true}
+              smooth={true}
+              offset={-40}
+              duration={500}
+              delay={100}
+              className="text-white hover:text-yellow-500 duration-100 cursor-pointer"
             >
               {link.name}
-            </a>
+            </Link>
             <hr className="text-white text-xs md:hidden block w-[50%]" />
           </li>
         ))}

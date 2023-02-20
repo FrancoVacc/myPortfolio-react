@@ -102,11 +102,11 @@ const MySkills = () => {
   return (
     <div className=" bg-black my-5 px-4 ">
       <h3 className=" text-3xl font-semibold text-center text-white">
-        This ar some of my skills
+        This are some of my skills
       </h3>
       <p className="text-center my-2 text-white">I Actually know 😎</p>
       <SkillShow skill={actualSkill} />
-      <p className="text-center my-2 text-white">Learning 🤓</p>
+      <p className="text-center my-2 text-white">I am Learning 🤓</p>
       <SkillShow skill={nextSkills} />
     </div>
   );
