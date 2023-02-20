@@ -1,13 +1,22 @@
 import React from "react";
 
-const Articles = ({ texts }) => {
+const Articles = ({ texts, img }) => {
+  const articleImg = "grid md:grid-cols-2 grid-cols-1 items-center";
   return (
     <>
-      <div className="mt-5 px-2">
-        <img src="" alt="" />
-        <div className=" mx-4">
-          <h3 className=" text-lg font-semibold text-center">{texts.title}</h3>
-          <p className=" text-base text-justify md:text-left">{texts.text}</p>
+      <div className={`md:px-2 px-0 ${img && articleImg}`}>
+        {img && (
+          <div className=" md:w-[100%] w-auto flex justify-center">
+            <img src={img} alt="" />
+          </div>
+        )}
+        <div className=" h-[100%] md:w-auto w-[100%] bg-black p-4">
+          <h3 className=" text-3xl font-semibold text-center text-white">
+            {texts.title}
+          </h3>
+          <p className=" text-base text-justify md:text-left text-white mt-2">
+            {texts.text}
+          </p>
         </div>
       </div>
     </>

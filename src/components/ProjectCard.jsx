@@ -7,17 +7,17 @@ import { FaGithub } from "react-icons/fa";
 const ProjectCard = ({ object }) => {
   const { name, img, gitHub, deploy, deployLink } = object;
   return (
-    <div className=" w-52 rounded-lg overflow-hidden bg-slate-100 m-4 hover:shadow-md hover:shadow-gray-300">
+    <div className=" w-52 rounded-lg overflow-hidden bg-black  m-4 hover:shadow-md hover:shadow-yellow-200">
       <a href={deployLink} target="_blank">
         <img src={img} alt={name} className="w-full" />
       </a>
-      <h4 className=" text-lg my-4 mx-auto text-center">{name}</h4>
+      <h4 className=" text-xl my-4 mx-auto text-center text-white">{name}</h4>
       <div className="flex justify-center mb-4">
         <a
           href={gitHub}
           target="_blank"
           title="repository"
-          className=" hover:text-gray-700 text-xl mr-2"
+          className=" text-white hover:text-gray-700 text-xl mr-2"
         >
           <FaGithub />
         </a>

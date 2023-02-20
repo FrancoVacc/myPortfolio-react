@@ -67,7 +67,7 @@ const MySkills = () => {
     {
       name: "GitHub",
       component: <FaGithub />,
-      color: "text-black",
+      color: "text-white",
     },
   ];
 
@@ -100,13 +100,13 @@ const MySkills = () => {
   ];
 
   return (
-    <div className=" bg-slate-200 my-5 px-4">
-      <h3 className=" text-lg font-semibold text-center">
+    <div className=" bg-black my-5 px-4 ">
+      <h3 className=" text-3xl font-semibold text-center text-white">
         This ar some of my skills
       </h3>
-      <p className="text-center my-2">I Actually know</p>
+      <p className="text-center my-2 text-white">I Actually know 😎</p>
       <SkillShow skill={actualSkill} />
-      <p className="text-center my-2">Learning</p>
+      <p className="text-center my-2 text-white">Learning 🤓</p>
       <SkillShow skill={nextSkills} />
     </div>
   );
