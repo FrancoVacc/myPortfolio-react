@@ -17,7 +17,7 @@ const ProjectCard = ({ object }) => {
           href={gitHub}
           target="_blank"
           title="repository"
-          className=" text-white hover:text-gray-700 text-xl mr-2"
+          className=" text-white hover:text-green-500 text-xl mr-2"
         >
           <FaGithub />
         </a>

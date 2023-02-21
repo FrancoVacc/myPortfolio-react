@@ -41,7 +41,7 @@ const App = () => {
     {
       name: "life sheet",
       icon: <BsFillPersonFill />,
-      link: "./src/assets/Curriculum.pdf",
+      link: "https://drive.google.com/file/d/1_SQUb_NlKlEwVP2zkJpO9H1Bqp3Z26-8/view?usp=share_link",
     },
   ];
   const links = [
