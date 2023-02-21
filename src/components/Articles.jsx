@@ -19,7 +19,7 @@ const Articles = ({ img }) => {
             <span className="text-green-500 uppercase"> frontend</span> junior
             developer ✋🏼
           </h3>
-          <p className=" text-base text-justify md:text-left text-white mt-2">
+          <p className=" text-base text-justify md:text-left text-white mt-2 md:px-2">
             About me... i'm from Argentina, i'm a biology teacher but now i'm
             looking for a change, i studied for a long time some programing
             languages. I also studied systems analyst on a institute meny years

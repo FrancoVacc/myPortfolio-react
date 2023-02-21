@@ -57,7 +57,7 @@ const Projects = () => {
         Take a look to my projects, you will find a link to the GitHub
         repository and to te Hosting deploy 👇🏼
       </p>
-      <div className="flex flex-wrap justify-around m-4">
+      <div className="flex flex-wrap justify-around m-4 md:p-10">
         {projects.map((project) => (
           <div key={project.name}>
             <ProjectCard object={project} />

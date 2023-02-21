@@ -7,6 +7,7 @@ import Navbar from "./components/NavBar";
 import Projects from "./components/Projects";
 import ProfileImg from "./img/profile.png";
 import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
+import { BsFillPersonFill } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import Objetives from "./components/Objetives";
 import { Element } from "react-scroll";
@@ -37,6 +38,11 @@ const App = () => {
       icon: <AiFillInstagram />,
       link: "https://www.instagram.com/francovacc2.0/",
     },
+    {
+      name: "life sheet",
+      icon: <BsFillPersonFill />,
+      link: "./src/assets/Curriculum.pdf",
+    },
   ];
   const links = [
     {
@@ -62,7 +68,7 @@ const App = () => {
   ];
 
   return (
-    <div className="bg-[url('./img/fondo1.png')]">
+    <div className="bg-[url('./img/fondo1.png')] bg-cover">
       <Navbar links={links} />
       <Element name="information">
         <Articles img={ProfileImg} />
