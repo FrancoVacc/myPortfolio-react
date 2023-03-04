@@ -45,6 +45,13 @@ const projects = [
     deploy: "netlify",
     deployLink: "https://poke-app-pokedex.netlify.app/",
   },
+  {
+    name: "Citas Veterinario (ES)",
+    img: citas - veterinario,
+    gitHub: "https://github.com/FrancoVacc/citas-vet",
+    deploy: "netlify",
+    deployLink: "https://citas-vet-react-tailwind.netlify.app/",
+  },
 ];
 
 const Projects = () => {

@@ -8,7 +8,7 @@ const Footer = ({ networks }) => {
         <h4 className="text-sm text-white">
           Franco Vaccari's <span className="text-green-500">Portfolio</span>
         </h4>
-        <div className="flex w-[20%] justify-around">
+        <div className="flex  w-[30%] md:w-[20%] justify-around">
           {networks.map((network) => (
             <a
               href={network.link}
