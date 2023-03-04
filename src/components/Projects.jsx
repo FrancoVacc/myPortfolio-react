@@ -6,6 +6,7 @@ import todo from "../img/todo-react.png";
 import myLink from "../img/MyLink-app.png";
 import productcard from "../img/productcard-html-css.png";
 import pokedex from "../img/pokedex.png";
+import citasveterinario from "../img/citasveterinario.png";
 import ProjectCard from "./ProjectCard";
 
 const projects = [
@@ -47,7 +48,7 @@ const projects = [
   },
   {
     name: "Citas Veterinario (ES)",
-    img: citas - veterinario,
+    img: citasveterinario,
     gitHub: "https://github.com/FrancoVacc/citas-vet",
     deploy: "netlify",
     deployLink: "https://citas-vet-react-tailwind.netlify.app/",
