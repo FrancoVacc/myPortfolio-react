@@ -7,6 +7,7 @@ import myLink from "../img/MyLink-app.png";
 import productcard from "../img/productcard-html-css.png";
 import pokedex from "../img/pokedex.png";
 import citasveterinario from "../img/citasveterinario.png";
+import controlGastos from "../img/control-gastos.png";
 import ProjectCard from "./ProjectCard";
 
 const projects = [
@@ -52,6 +53,13 @@ const projects = [
     gitHub: "https://github.com/FrancoVacc/citas-vet",
     deploy: "netlify",
     deployLink: "https://citas-vet-react-tailwind.netlify.app/",
+  },
+  {
+    name: "Control de Gastos (ES)",
+    img: controlGastos,
+    gitHub: "https://github.com/FrancoVacc/control-presupuesto",
+    deploy: "netlify",
+    deployLink: "https://controlador-de-gastos-react.netlify.app/",
   },
 ];
 

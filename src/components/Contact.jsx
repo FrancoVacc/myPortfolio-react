@@ -32,6 +32,9 @@ const Contact = ({ networks }) => {
           </ul>
         </div>
       </div>
+      <p className=" font-mono text-xs text-white italic text-right mr-5">
+        Last update: 03/18/2023
+      </p>
     </div>
   );
 };
