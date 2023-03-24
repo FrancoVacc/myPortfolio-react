@@ -8,6 +8,7 @@ import productcard from "../img/productcard-html-css.png";
 import pokedex from "../img/pokedex.png";
 import citasveterinario from "../img/citasveterinario.png";
 import controlGastos from "../img/control-gastos.png";
+import cryptoquoter from "../img/crypto-quoter.png";
 import ProjectCard from "./ProjectCard";
 
 const projects = [
@@ -60,6 +61,13 @@ const projects = [
     gitHub: "https://github.com/FrancoVacc/control-presupuesto",
     deploy: "netlify",
     deployLink: "https://controlador-de-gastos-react.netlify.app/",
+  },
+  {
+    name: "Crypto Quoter",
+    img: cryptoquoter,
+    gitHub: "https://github.com/FrancoVacc/crypto-quoter",
+    deploy: "netlify",
+    deployLink: "https://crypto-quoter-react.netlify.app/",
   },
 ];
 
